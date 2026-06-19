@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saileela Earat – AI & Data Science Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">SE<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="#about" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'});return false;">About</a></li>
+    <li><a href="#experience" onclick="document.getElementById('experience').scrollIntoView({behavior:'smooth'});return false;">Experience</a></li>
+    <li><a href="#projects" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'});return false;">Projects</a></li>
+    <li><a href="#certifications" onclick="document.getElementById('certifications').scrollIntoView({behavior:'smooth'});return false;">Certifications</a></li>
+    <li><a href="#contact" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;">Hire Me</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Available for Opportunities</div>
+    <h1 class="hero-title">
+      Hi, I'm <span class="teal">Saileela</span><br>
+      <span class="dim">Earat</span>
+    </h1>
+    <div class="hero-terminal">
+      &gt; <span id="typewriter"></span><span class="cursor"></span>
+    </div>
+    <p class="hero-desc">
+      Passionate about Artificial Intelligence, Machine Learning, and Data Analytics.
+      Building intelligent solutions that solve real-world problems — from open-source Telugu LLMs
+      to customer retention analytics platforms.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'});return false;">View My Work</a>
+      <a href="#contact" class="btn-outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;">Get In Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Hackathons</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Certifications</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">2+</div>
+        <div class="stat-label">AI Projects</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">IIIT</div>
+        <div class="stat-label">Hyderabad Collab</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-eyebrow">// 01 About</div>
+  <h2 class="section-title">Who I Am</h2>
+  <p class="section-sub">A driven CS & Data Science undergraduate turning ideas into intelligent systems.</p>
+
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>
+        I'm a <strong>Computer Science and Data Science</strong> undergraduate at Geethanjali College of Engineering and Technology, Hyderabad, expected to graduate in 2028.
+      </p>
+      <p>
+        My interests lie in <strong>Machine Learning, Natural Language Processing, Data Analytics,</strong> and AI-powered applications. I thrive at the intersection of research and engineering — building things that actually work.
+      </p>
+      <p>
+        Through my internship at <strong>Viswam.AI (in collaboration with IIIT Hyderabad)</strong>, I contributed to India's first open-source Telugu LLM — work that sits at the frontier of regional language AI. I continuously sharpen my skills through open-source contributions, structured programs, and independent project work.
+      </p>
+      <p>
+        I'm currently exploring AI, Data Science, and Full-Stack Development while contributing to open-source AI initiatives and building a portfolio of production-ready projects.
+      </p>
+    </div>
+    <div class="about-skills">
+      <h4>AI & Machine Learning</h4>
+      <div class="chip-group">
+        <span class="chip chip-teal">Machine Learning</span>
+        <span class="chip chip-teal">NLP</span>
+        <span class="chip chip-teal">LLMs</span>
+        <span class="chip chip-teal">Data Analytics</span>
+
+      </div>
+      <h4>Languages & Frameworks</h4>
+      <div class="chip-group">
+        <span class="chip chip-purple">Python</span>
+        <span class="chip chip-purple">JavaScript</span>
+        <span class="chip chip-purple">TypeScript</span>
+        <span class="chip chip-purple">React</span>
+        <span class="chip chip-purple">Streamlit</span>
+      </div>
+      <h4>Tools & Platforms</h4>
+      <div class="chip-group">
+        <span class="chip chip-white">Supabase</span>
+        <span class="chip chip-white">Google Cloud</span>
+        <span class="chip chip-white">GitHub</span>
+        <span class="chip chip-white">Vercel</span>
+        <span class="chip chip-white">Anthropic SDK</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-eyebrow">// 02 Experience</div>
+  <h2 class="section-title">Where I've Worked</h2>
+  <p class="section-sub">Real-world AI engineering at one of India's leading research collaborations.</p>
+
+  <div class="exp-card reveal">
+    <div class="exp-top">
+      <div>
+        <div class="exp-company">Viswam.AI</div>
+        <div class="exp-role">AI Developer Intern</div>
+      </div>
+      <div class="exp-period">In Collaboration with IIIT Hyderabad &amp; Meta</div>
+    </div>
+    <p class="exp-desc">
+      Contributed to the development of India's first open-source Telugu Large Language Model — a pioneering effort in regional language AI. Worked alongside researchers from IIIT Hyderabad on model development, data pipelines, and AI engineering tasks that push the boundaries of low-resource NLP for Indian languages.
+    </p>
+    <div class="exp-tags">
+      <span class="exp-tag">NLP</span>
+      <span class="exp-tag">Large Language Models</span>
+      <span class="exp-tag">Telugu AI</span>
+      <span class="exp-tag">Open Source</span>
+      <span class="exp-tag">Python</span>
+      <span class="exp-tag">HuggingFace</span>
+      <span class="exp-tag">IIIT Hyderabad</span>
+    </div>
+  </div>
+
+  <div class="exp-card reveal" style="margin-top:1.2rem">
+    <div class="exp-top">
+      <div>
+        <div class="exp-company">McKinsey Forward Program</div>
+        <div class="exp-role">Program Participant</div>
+      </div>
+      <div class="exp-period">Leadership &amp; Problem Solving</div>
+    </div>
+    <p class="exp-desc">
+      Selected for McKinsey's competitive Forward Program, developing structured problem-solving, communication, and analytical skills used by global consultants. Applied frameworks to real-world business challenges, strengthening strategic thinking alongside technical expertise.
+    </p>
+    <div class="exp-tags">
+      <span class="exp-tag">Consulting Skills</span>
+      <span class="exp-tag">Problem Solving</span>
+      <span class="exp-tag">Analytics</span>
+      <span class="exp-tag">Leadership</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-eyebrow">// 03 Projects</div>
+  <h2 class="section-title">What I've Built</h2>
+  <p class="section-sub">Production-grade AI applications built to solve real problems.</p>
+
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-icon">📊</div>
+      <div class="project-num">Project / 01</div>
+      <div class="project-title">AI Customer Retention Analytics Platform</div>
+      <p class="project-desc">A machine learning solution designed to predict customer churn and help businesses improve retention strategies — deployed live with an interactive analytics dashboard.</p>
+      <div class="project-features">
+        <div class="project-feature">Customer churn prediction (84% accuracy, F1 ~0.84)</div>
+        <div class="project-feature">Interactive analytics dashboard</div>
+        <div class="project-feature">Churn trend visualization</div>
+        <div class="project-feature">Business insights generation</div>
+      </div>
+      <div class="project-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">Scikit-learn</span>
+        <span class="stack-tag">SMOTE</span>
+        <span class="stack-tag">Random Forest</span>
+        <span class="stack-tag">Streamlit</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-icon">🥗</div>
+      <div class="project-num">Project / 02</div>
+      <div class="project-title">NutriAI – Fuel Your Goals</div>
+      <p class="project-desc">An AI-powered nutrition and fitness tracking platform that helps users achieve their health goals through intelligent recommendations and personalized progress tracking.</p>
+      <div class="project-features">
+        <div class="project-feature">Personalized nutrition recommendations</div>
+        <div class="project-feature">Fitness goal tracking</div>
+        <div class="project-feature">User-friendly dashboard</div>
+        <div class="project-feature">AI-assisted health insights</div>
+      </div>
+      <div class="project-stack">
+        <span class="stack-tag">React</span>
+        <span class="stack-tag">TypeScript</span>
+        <span class="stack-tag">Supabase</span>
+        <span class="stack-tag">AI Integration</span>
+      </div>
+    </div>
+
+
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="section-eyebrow">// 04 Certifications</div>
+  <h2 class="section-title">Credentials</h2>
+  <p class="section-sub">Verified skills from industry leaders across AI, cloud, and technology consulting.</p>
+
+  <div class="certs-grid">
+
+    <div class="cert-card reveal">
+      <div class="cert-icon">🔷</div>
+      <div class="cert-issuer">Deloitte / Forage</div>
+      <div class="cert-name">Technology Job Simulation</div>
+      <div class="cert-desc">Completed practical tasks involving technology consulting, problem-solving, and real-world business scenarios simulating Deloitte's technology practice.</div>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-icon">☁️</div>
+      <div class="cert-issuer">Google Cloud</div>
+      <div class="cert-name">Introduction to Generative AI</div>
+      <div class="cert-desc">Learned the fundamentals of Generative AI, Large Language Models, and AI applications using Google Cloud technologies and infrastructure.</div>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-icon">🐍</div>
+      <div class="cert-issuer">Cisco</div>
+      <div class="cert-name">Python Essentials</div>
+      <div class="cert-desc">Developed a strong foundation in Python programming, data structures, functions, and problem-solving techniques essential for data science and AI work.</div>
+    </div>
+
+
+
+    <div class="cert-card reveal">
+      <div class="cert-icon">🏆</div>
+      <div class="cert-issuer">GSSoC</div>
+      <div class="cert-name">Open Source Contributions</div>
+      <div class="cert-desc">Active contributor to GirlScript Summer of Code, participating in open-source AI and software development projects with a global community of developers.</div>
+    </div>
+
+    <div class="cert-card reveal">
+      <div class="cert-icon">⚡</div>
+      <div class="cert-issuer">Urvah Dynamics</div>
+      <div class="cert-name">Technical Certification</div>
+      <div class="cert-desc">Earned technical certification from Urvah Dynamics, complementing hands-on project experience with structured learning and industry-aligned skills assessment.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-eyebrow">// 05 Contact</div>
+    <h2 class="section-title">Let's Build Something</h2>
+    <p class="section-sub" style="margin:0 auto">Open to internships, research collaborations, and exciting AI projects. Let's connect.</p>
+
+    <div class="contact-card reveal">
+      <p style="color:var(--slate);font-size:0.9rem">Currently based in Hyderabad, India</p>
+      <div class="contact-email">saileelaearat@gmail.com</div>
+      <a href="mailto:saileelaearat@gmail.com" class="btn-primary" style="display:inline-block;margin-top:0.5rem">Send a Message</a>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/saileela-earat-87a421324" target="_blank" rel="noopener noreferrer" class="contact-link" onclick="window.open('https://www.linkedin.com/in/saileela-earat-87a421324','_blank');return false;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/saileelaearat-svg" target="_blank" rel="noopener noreferrer" class="contact-link" onclick="window.open('https://github.com/saileelaearat-svg','_blank');return false;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+          GitHub
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="contact-link" onclick="window.open('https://instagram.com','_blank');return false;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+          Instagram
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>Saileela Earat <span class="teal">©</span> 2025</span>
+  <span>Built with <span class="teal">♥</span> in Hyderabad</span>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
